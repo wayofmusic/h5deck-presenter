@@ -7,67 +7,79 @@
       "name": "H5Deck-产品包装与广告-20261105.zip",
       "workspace_path": "H5Deck-产品包装与广告-20261105.zip",
       "bytes": 7022405,
-      "sha256": "8c95cdb25f13990176d41a39ceab59f91b0d49fba42640e3559b177658c52317"
+      "sha256": "8c95cdb25f13990176d41a39ceab59f91b0d49fba42640e3559b177658c52317",
+      "release_name": "h5deck-marketing-20261105.zip"
     },
     {
       "name": "H5Deck-双屏试讲-20261105.zip",
       "workspace_path": "H5Deck-双屏试讲-20261105.zip",
       "bytes": 1884313,
-      "sha256": "427edf85ffd489ed7eb706c7386c67f2dc0faef32edb0b27e7fff4aa01cb2246"
+      "sha256": "427edf85ffd489ed7eb706c7386c67f2dc0faef32edb0b27e7fff4aa01cb2246",
+      "release_name": "h5deck-debug-pilot-20261105.zip"
     },
     {
       "name": "Vibe Coding-试讲片段-20261105.zip",
       "workspace_path": "Vibe Coding-试讲片段-20261105.zip",
       "bytes": 1579257,
-      "sha256": "a1031622f6a51df6834d66f76b53ac589a437b7528325cf096ffc1a3f08b7ea0"
+      "sha256": "a1031622f6a51df6834d66f76b53ac589a437b7528325cf096ffc1a3f08b7ea0",
+      "release_name": "vibecoding-pilot-20261105.zip"
     },
     {
       "name": "双屏演讲平台-v0.2-完整交付包.zip",
       "workspace_path": "双屏演讲平台-v0.2-完整交付包.zip",
       "bytes": 71925143,
-      "sha256": "6c01b1ea51c7d7242b371c0c51ba0a020b020eeef1b013e4294718225f945c98"
+      "sha256": "6c01b1ea51c7d7242b371c0c51ba0a020b020eeef1b013e4294718225f945c98",
+      "release_name": "h5deck-platform-v0.2-windows.zip"
     },
     {
       "name": "双屏演讲系统-Codex开发交接包.zip",
       "workspace_path": "双屏演讲系统-Codex开发交接包.zip",
       "bytes": 23930526,
-      "sha256": "765047fe40776c7f9140641e3db6795ec785330f3512810c0b42a0c7d7c59914"
+      "sha256": "765047fe40776c7f9140641e3db6795ec785330f3512810c0b42a0c7d7c59914",
+      "release_name": "h5deck-original-handoff.zip"
     },
     {
       "name": "双屏演讲系统-v0.1-Windows.zip",
       "workspace_path": "双屏演讲系统-v0.1-Windows.zip",
       "bytes": 71302099,
-      "sha256": "f761fb926cb9e34aebc6fcaab673593c8e8ebb4333bc089ca3c3f64519cd2f69"
+      "sha256": "f761fb926cb9e34aebc6fcaab673593c8e8ebb4333bc089ca3c3f64519cd2f69",
+      "release_name": "h5deck-v0.1-windows.zip"
     },
     {
       "name": "双屏演讲系统-v0.1-完整交付包.zip",
       "workspace_path": "双屏演讲系统-v0.1-完整交付包.zip",
       "bytes": 71370830,
-      "sha256": "18c182561b4fd06b207be9c331ea1370885c54a623c07fd9adfb0ecfe14d39e3"
+      "sha256": "18c182561b4fd06b207be9c331ea1370885c54a623c07fd9adfb0ecfe14d39e3",
+      "release_name": "h5deck-v0.1-complete.zip"
     },
     {
       "name": "让连接更有价值-发布会版-点按展开.zip",
       "workspace_path": "让连接更有价值-发布会版-点按展开.zip",
       "bytes": 7386710,
-      "sha256": "57ffa3b2e4358374431cac0ed26e420d69c70140de881015ceca4cb05af5b517"
+      "sha256": "57ffa3b2e4358374431cac0ed26e420d69c70140de881015ceca4cb05af5b517",
+      "release_name": "h5deck-speech-keynote-20261105.zip"
     },
     {
       "name": "讲有底-品牌与海报-V2-20261105.zip",
       "workspace_path": "讲有底-品牌与海报-V2-20261105.zip",
       "bytes": 18563394,
-      "sha256": "99790992ba841aa2d8ac62648afc5f4131c114eaff233a707b77a29ed8d23f07"
+      "sha256": "99790992ba841aa2d8ac62648afc5f4131c114eaff233a707b77a29ed8d23f07",
+      "release_name": "jiangyoudi-brand-v2-20261105.zip"
     },
     {
       "name": "课件库快照-20261105.zip",
       "workspace_path": "课件库快照-20261105.zip",
       "bytes": 11068144,
-      "sha256": "5c98c9bc45cf52d26dac17a859be9e809ce4a8fa4cf1a67d493a900efd623663"
+      "sha256": "5c98c9bc45cf52d26dac17a859be9e809ce4a8fa4cf1a67d493a900efd623663",
+      "release_name": "h5deck-course-library-20261105.zip"
     },
     {
       "name": "双屏演讲-三页练习包.zip",
       "workspace_path": "大航海周报-20261105/双屏演讲-三页练习包.zip",
       "bytes": 36287851,
-      "sha256": "cc2af46fdc01d441184fc95481bcb6f4d5b2a402c7ef94f03c261bb50727f472"
+      "sha256": "cc2af46fdc01d441184fc95481bcb6f4d5b2a402c7ef94f03c261bb50727f472",
+      "release_name": "h5deck-ai-course-practice-20261105.zip"
     }
-  ]
+  ],
+  "asset_naming": "release_name is the stable download name; name preserves the original local name."
 }

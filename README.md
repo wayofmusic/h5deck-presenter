@@ -23,7 +23,7 @@
 
 ### 使用 Windows 完整交付包
 
-在 [Releases](https://github.com/wayofmusic/h5deck-presenter/releases) 下载 `双屏演讲平台-v0.2-完整交付包.zip`，完整解压后双击顶层的“启动双屏演讲.cmd”。完成后运行“停止双屏演讲.cmd”。该包包含 Node 运行时与依赖。
+在 [Releases](https://github.com/wayofmusic/h5deck-presenter/releases) 下载 `h5deck-platform-v0.2-windows.zip`（中文说明为“双屏演讲平台-v0.2-完整交付包”），完整解压后双击顶层的“启动双屏演讲.cmd”。完成后运行“停止双屏演讲.cmd”。该包包含 Node 运行时与依赖。
 
 手机与电脑需要处于可互通的局域网。工作台选择课件，打开投屏，再选对应网卡并扫码配对。详细用法见源码目录 README 与 STATUS。
 
@@ -68,6 +68,7 @@ GitHub Actions 在提交与 PR 上检查版本一致性、14 个基线文件哈�
 
 - 源码、文档、必要素材、`.h5deck` 内容包和匿名练习代码进入 Git。
 - 已有 ZIP 交付包及课件库快照作为 `v0.2.0` Release 附件保存，下载后可使用 `SHA256SUMS.txt` 校验。
+- Release 使用英文下载文件名以避免中文名被 GitHub 改写；`RELEASE-ASSETS.json` 同时记录原名 `name`、下载名 `release_name` 和原工作区路径。
 - `node_modules/`、运行时、构建目录、缓存、临时验证目录、`.runtime/`、本机 `data/` 和凭据不进入 Git。
 - 活跃 `data/` 不直接入库；已导入内容单独保存在“课件库快照-20261105”，恢复方式见该目录说明。运行会话和控制凭据不备份。
 
