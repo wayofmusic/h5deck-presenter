@@ -1,0 +1,219 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-03",
+  "revision": "20261030-full-r1",
+  "title": "03｜场景选择与最小项目",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "发现机会",
+      "场景与STAR"
+    ],
+    [
+      "缩小第一步",
+      "输入、范围与约定"
+    ],
+    [
+      "动手验证",
+      "作品、证据与修订"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "opening",
+      "title": "从一个麻烦，做出第一个小作品。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    },
+    {
+      "id": "outcomes",
+      "title": "离开这一节，带走三样东西。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    },
+    {
+      "id": "scene-form",
+      "title": "先说清场景，再选产品形态。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 100
+    },
+    {
+      "id": "star-map",
+      "title": "用STAR，把想法摊开。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "four-examples",
+      "title": "换个象限，换一个提问角度。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "brainstorm",
+      "title": "先发散：写下5—15个场景。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "big-small",
+      "title": "分成两堆：一个大设想，一个启动项。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 300
+    },
+    {
+      "id": "feasibility",
+      "title": "“小”，要看背后的依赖。",
+      "chapter": 1,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "need-code",
+      "title": "这次一定需要写程序吗？",
+      "chapter": 1,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "cut-scope",
+      "title": "把一个大愿望，切成一次可验收的动作。",
+      "chapter": 1,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "scene-card",
+      "title": "场景卡：让同伴能复述你的需求。",
+      "chapter": 1,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "build-brief",
+      "title": "启动说明：必须做、先不做、怎样验。",
+      "chapter": 1,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "prototype",
+      "title": "一个可检查的小作品，长这样。",
+      "chapter": 1,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "iterate",
+      "title": "观察默认结果，再改一个具体问题。",
+      "chapter": 2,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "acceptance",
+      "title": "验收时，留下能复现的记录。",
+      "chapter": 2,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "make-it",
+      "title": "动手：先跑通一轮，再决定加什么。",
+      "chapter": 2,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "peer-review",
+      "title": "互评：让同伴检查四件事。",
+      "chapter": 2,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "checkpoint",
+      "title": "同样是“推荐工具”，哪一步适合先试？",
+      "chapter": 2,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "handoff",
+      "title": "带着启动项，继续打磨。",
+      "chapter": 2,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "quadrant": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "S",
+        "T",
+        "A",
+        "R"
+      ]
+    },
+    "routeChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "sceneDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "scopeDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "evidenceDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "revisionDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "scopeChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

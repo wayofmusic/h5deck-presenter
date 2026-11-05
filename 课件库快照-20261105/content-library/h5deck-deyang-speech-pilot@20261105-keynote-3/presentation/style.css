@@ -1,0 +1,104 @@
+:root{
+  font:clamp(7px,1.25vw,30px)/1.4 "Microsoft YaHei UI","Microsoft YaHei","PingFang SC",sans-serif;
+  color:#fff3df;
+  background:#102f36;
+  --ivory:#fff2dc;
+  --muted:#e9dfcb;
+  --champagne:#edbd8b;
+  --rule:#c391666a;
+  --serif:"STZhongsong","Songti SC","SimSun","Noto Serif CJK SC",serif;
+}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;overflow:hidden}
+[hidden]{display:none!important}
+h1,h2,p{margin:0}
+h1,h2{font-family:var(--serif);font-weight:700;color:var(--ivory);line-height:1.16;letter-spacing:.005em}
+.slide{position:absolute;inset:0;overflow:hidden;isolation:isolate;padding:0 7.4vw}
+.slide::before{content:"";position:absolute;inset:0;z-index:-2;background:var(--scene) center center/cover no-repeat #102f36}
+.slide::after{content:"";position:absolute;inset:0;z-index:-1;background:var(--scrim,none);pointer-events:none}
+.cover{--scene:url("cover.png");--scrim:linear-gradient(90deg,#09283136 0%,#0928310e 61%,transparent 73%)}
+.cover .main{position:absolute;top:31.2%;left:7.4%;width:75%}
+.cover h1{font-size:5.35rem;white-space:nowrap;letter-spacing:-.015em;text-shadow:0 2px 18px #0b262f72}
+.cover .detail{margin-top:1.3rem;font-size:1.45rem;color:var(--ivory)}
+.cover .byline{margin-top:.54rem;font-size:1.1rem;color:var(--muted)}
+.cover .when{margin-top:1.85rem;padding-top:.72rem;border-top:1px solid var(--rule);width:max-content;max-width:100%;font-size:.94rem;color:var(--muted)}
+.memory{--scene:url("quiet.png");--scrim:linear-gradient(180deg,#102e3633,transparent 68%)}
+.memory .main{position:absolute;top:21%;left:7.4%;max-width:85%}
+.memory h1{font-size:4.35rem}
+.memory .detail{margin-top:1.15rem;color:var(--muted);font-size:1.3rem}
+.memory .year{position:absolute;right:7.3%;top:44%;font:400 11.8rem/.8 Georgia,serif;letter-spacing:-.075em;color:#d5a57e}
+.memory .year span{display:block;margin-top:.85rem;font:500 .9rem/1.4 "Microsoft YaHei UI",sans-serif;letter-spacing:.18em;text-align:right;color:#f4d7b5}
+.route{--scene:url("route.png");--scrim:linear-gradient(180deg,#0b293249 0%,transparent 62%)}
+.route .main{position:absolute;left:10%;right:10%;top:15%;text-align:center}
+.route h1{font-size:2.4rem;letter-spacing:.03em}
+.route .comparison{margin:2.65rem auto 0;display:grid;grid-template-columns:1fr 5.75rem 1fr;align-items:start;gap:1rem}
+.route h2{font-size:5.25rem;letter-spacing:.025em;line-height:1}
+.route .caption{display:block;margin-top:1.1rem;padding-top:.75rem;border-top:1px solid var(--rule);color:var(--muted);font-size:1.5rem}
+.arrow{align-self:start;width:100%;height:2rem;margin-top:1.6rem;color:var(--champagne);filter:drop-shadow(0 0 .36rem #e5a06c85)}
+.field{--scene:url("industry.png");--scrim:linear-gradient(90deg,#0b283473 0%,#0b283437 54%,transparent 78%)}
+.field .main{position:absolute;top:20%;left:7.4%;max-width:66%}
+.field h1{font-size:4.8rem}
+.field .three{margin-top:2rem;display:flex;align-items:center;gap:1.15rem;color:var(--muted);font-size:1.17rem}
+.field .three span+span{border-left:1px solid var(--rule);padding-left:1.15rem}
+.commit{--scene:url("route.png");--scrim:linear-gradient(180deg,#09273232,transparent 70%)}
+.commit .main{position:absolute;top:17.5%;left:7.4%;right:7.4%}
+.commit h1{font-size:4.35rem}
+.commit .pledges{margin-top:2.4rem;display:grid;grid-template-columns:repeat(3,1fr);gap:2rem}
+.pledge{border-top:1px solid var(--rule);padding-top:.9rem}
+.pledge h2{font-size:2.12rem}
+.pledge p{font-size:1.1rem;color:var(--muted);margin-top:.38rem}
+.gratitude{--scene:url("quiet.png");--scrim:linear-gradient(90deg,#0e2b3454,transparent)}
+.gratitude .main{position:absolute;top:21%;left:7.4%;right:7.4%}
+.gratitude h1{font-size:4.35rem}
+.gratitude .guests{display:grid;grid-template-columns:1fr 1fr;gap:2.2rem;max-width:57rem;margin-top:2.4rem}
+.guests p{font-size:1.3rem;line-height:1.65;color:var(--muted)}
+.guests div{border-left:1px solid var(--rule);padding-left:.95rem}
+.closing{--scene:url("close.png");--scrim:linear-gradient(180deg,#0b293242,transparent 60%)}
+.closing .main{position:absolute;top:22%;left:7%;right:7%;text-align:center}
+.closing h1{font-size:5.25rem}
+.closing .detail{font:700 2rem/1.4 var(--serif);letter-spacing:.15em;margin-top:1.18rem;color:var(--muted)}
+.nav{position:absolute;z-index:3;bottom:1.4%;right:1.25%;display:flex;align-items:center;gap:.5rem;opacity:0}
+.nav:hover,.nav:focus-within{opacity:1}
+.nav button{min-width:2rem;min-height:1.7rem;border:1px solid #d7b99390;background:#153a43;color:var(--ivory);padding:.12rem .48rem;border-radius:.17rem;cursor:pointer;font:inherit}
+.nav button:focus-visible{outline:2px solid var(--champagne);outline-offset:2px}
+.nav .page{font-size:.78rem;color:var(--muted)}
+
+@font-face{
+  font-family:"Deck Stage Song";
+  src:url("fonts/stage-song.woff2") format("woff2");
+  font-style:normal;
+  font-weight:900;
+  font-display:swap;
+}
+@font-face{
+  font-family:"Deck Stage Brush";
+  src:url("fonts/stage-brush.woff2") format("woff2");
+  font-style:normal;
+  font-weight:400;
+  font-display:swap;
+}
+:root{--serif:"Deck Stage Song","STZhongsong","Songti SC","SimSun",serif}
+h1,h2{font-weight:900;font-synthesis:none;letter-spacing:.008em}
+.cover h1{letter-spacing:.01em}
+.closing h1{font-family:"Deck Stage Brush",var(--serif);font-weight:400;font-size:6.1rem;letter-spacing:.08em}
+.closing .detail{font-weight:900}
+
+@keyframes stage-rise{
+  from{opacity:0;transform:translateY(.48rem)}
+  to{opacity:1;transform:translateY(0)}
+}
+@keyframes stage-fade{
+  from{opacity:0}
+  to{opacity:1}
+}
+@keyframes stage-connection{
+  from{stroke-dashoffset:1;opacity:0}
+  to{stroke-dashoffset:0;opacity:1}
+}
+[data-reveal]:not(.shown){visibility:hidden}
+@media (prefers-reduced-motion:no-preference){
+  .revealed-now[data-effect="rise"]{animation:stage-rise .46s cubic-bezier(.22,.61,.36,1) both}
+  .revealed-now[data-effect="fade"]{animation:stage-fade .52s ease-out both}
+  .revealed-now[data-effect="draw"] path{stroke-dasharray:1;animation:stage-connection .50s ease-out both}
+  .comparison .revealed-now[data-effect="rise"]{animation-delay:.11s}
+}

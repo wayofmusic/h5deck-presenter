@@ -1,0 +1,183 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-02",
+  "revision": "20261030-full-r1",
+  "title": "02｜第一次制作与代码思维",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "第一次制作与代码思维"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "welcome",
+      "title": "先做一次，看看发生了什么。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "three-obstacles",
+      "title": "三种卡点，先分清。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "first-prompt",
+      "title": "先给一句模糊要求。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    },
+    {
+      "id": "first-attempt",
+      "title": "第一轮：拿到初版并打开。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "default-decisions",
+      "title": "AI默认了什么，你同意吗？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "feedback-example",
+      "title": "把“没反应”，说成可复现步骤。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "free-polish",
+      "title": "第二轮：自由打磨，再检查一次。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "compare-results",
+      "title": "比较作品时，比较哪些东西？",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 120
+    },
+    {
+      "id": "three-solutions",
+      "title": "遇到问题，多比较一种解法。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "language-loop",
+      "title": "自然语言协作，也有一个开发循环。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "team-analogy",
+      "title": "把AI当作角色协作的帮手。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 120
+    },
+    {
+      "id": "human-judgment",
+      "title": "人的判断，落在三个具体动作。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "original-cases",
+      "title": "听案例时，提炼过程，保留出处。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "growth-path",
+      "title": "先建立信心，再积累经验。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "first-check",
+      "title": "这一轮，你能说明四件事吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 180
+    },
+    {
+      "id": "write-record",
+      "title": "整理一份别人接得住的记录。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "first-quiz",
+      "title": "哪一项，说明了真实进展？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "next",
+      "title": "接下来，选一个值得继续做的场景。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "artifactDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "flowDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "changeDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "recordDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "firstEvidence": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

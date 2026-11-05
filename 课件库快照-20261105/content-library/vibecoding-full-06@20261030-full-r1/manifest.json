@@ -1,0 +1,218 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-06",
+  "revision": "20261030-full-r1",
+  "title": "06｜文档与里程碑开发",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "文档与里程碑开发"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "welcome",
+      "title": "让下一步，少猜一点。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "four-modes",
+      "title": "四种方式，按任务条件选择。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "clarify",
+      "title": "先澄清会改变方案的问题。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "milestone",
+      "title": "里程碑，是可检查的一次交付。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "milestone-example",
+      "title": "把学习站，切成几次交付。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "context-types",
+      "title": "对话、记忆与项目文档，各有作用。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "entry-document",
+      "title": "00入口：告诉接手者该读什么。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "document-tree",
+      "title": "编号帮助找，依赖决定顺序。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "dependencies",
+      "title": "写清这次产物依据了什么。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "markdown",
+      "title": "本地Markdown，是一种载体选择。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "practice-docs",
+      "title": "先建一套最小文档，再试接手。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "design-stage",
+      "title": "设计阶段，分开几类决定。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "frontend-stage",
+      "title": "前端阶段，明确模拟的边界。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "backend-stage",
+      "title": "接真实数据前，拿出接口清单。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "blueprint",
+      "title": "规格与实现，要一起维护。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "tdd",
+      "title": "TDD的核心，是红、绿、重构。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "test-quality",
+      "title": "验收阈值，也需要依据。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "practice-design",
+      "title": "把一条路径，设计到可以实施。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "practice-implement",
+      "title": "按约定实施一段，交一次证据。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "handoff-template",
+      "title": "交接，回答下一步真正需要的问题。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "docs-check",
+      "title": "文档，能支持一次接手吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "docs-quiz",
+      "title": "新窗口不知道旧决定，先补什么？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "day-one-close",
+      "title": "第一天，把过程留下来。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "entryDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "decisionDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "milestoneDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "handoffDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "docsChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

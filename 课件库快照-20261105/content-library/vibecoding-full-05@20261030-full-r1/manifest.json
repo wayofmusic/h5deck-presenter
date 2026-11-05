@@ -1,0 +1,244 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-05",
+  "revision": "20261030-full-r1",
+  "title": "05｜技术地图与真实功能",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "技术地图与真实功能"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "opening",
+      "title": "让页面，真正办事。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 45
+    },
+    {
+      "id": "outcomes",
+      "title": "这一节，交出三样东西。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 60
+    },
+    {
+      "id": "roles",
+      "title": "三个参与者，一份约定。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 90
+    },
+    {
+      "id": "responsibilities",
+      "title": "前端有逻辑，服务端做关键检查。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "contract",
+      "title": "把接口说清楚，再各自开工。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "browser-api",
+      "title": "网页可以调 API，先看连接条件。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "mock",
+      "title": "Mock 是替身，真实数据要有来处。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "flow",
+      "title": "点一次查看，沿链路走一遍。",
+      "chapter": 0,
+      "steps": 5,
+      "seconds": 180
+    },
+    {
+      "id": "sequence",
+      "title": "先做哪边？先解决最大的未知。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    },
+    {
+      "id": "verification",
+      "title": "上线前，走过三种结局。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "browser-trio",
+      "title": "HTML、CSS、JavaScript，各管什么？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "web-address",
+      "title": "地址、端口和状态码，先会定位。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "data-tools",
+      "title": "格式、语言与工具，不混为一类。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "runtime-config",
+      "title": "运行、配置与容器，分别看。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "state-time",
+      "title": "状态、缓存和执行顺序。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "ops-terms",
+      "title": "部署以后，也要知道它怎样运行。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "ai-terms",
+      "title": "MCP、RAG与沙箱，各有边界。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "case-activity",
+      "title": "案例一：活动中心的数据从表格来。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "case-library",
+      "title": "案例二：素材中心不只是列表。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "case-mv",
+      "title": "案例三：音乐转MV仍是未完成原型。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "case-im",
+      "title": "案例四：先让一条消息走通。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "git",
+      "title": "Git 记历史，GitHub 帮协作。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "assignment",
+      "title": "轮到你：把一个功能讲清楚。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "tech-practice",
+      "title": "给自己的作品，画一条数据链路。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "checkpoint",
+      "title": "能说清来源，才能判断完成。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "tech-handoff",
+      "title": "带着约定，进入里程碑开发。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "scenario": {
+      "type": "string",
+      "initial": "success",
+      "enum": [
+        "success",
+        "empty",
+        "denied"
+      ]
+    },
+    "mapDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "contractDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "evidenceDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

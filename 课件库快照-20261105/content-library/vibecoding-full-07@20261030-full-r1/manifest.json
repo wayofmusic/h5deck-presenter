@@ -1,0 +1,183 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-07",
+  "revision": "20261030-full-r1",
+  "title": "07｜调试与验证",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "调试与验证"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "debug-open",
+      "title": "报错，是下一条线索。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "review-progress",
+      "title": "先复盘昨天真实发生的变化。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 480
+    },
+    {
+      "id": "categories",
+      "title": "环境、程序错误、逻辑缺陷，分开看。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reproduce",
+      "title": "先把“坏了”，改写成一次操作。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "bug-report",
+      "title": "给AI的第一份问题说明。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "cheap-checks",
+      "title": "从低成本线索开始，但不盲目扩改。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "logs",
+      "title": "沿数据链路，放少量有用的观察点。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "hypotheses",
+      "title": "假设，是用来被验证或排除的。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "minimal-fix",
+      "title": "找到原因后，改动要与问题相称。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "external-help",
+      "title": "换角度，不是不断换猜测。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "strategy-map",
+      "title": "十二个子项，服务同一条调试链。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "sample-bugs",
+      "title": "用一个小计算器，练三类观察。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "debug-practice",
+      "title": "实践：复现一处，确认一处，修复一处。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "regression",
+      "title": "修好一条，还要检查相关行为。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "debug-peer",
+      "title": "让同伴，只按你的记录复验。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "debug-check",
+      "title": "一份调试交付，至少有这些。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "debug-quiz",
+      "title": "问题不再出现，能直接宣布根因找到了吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "debug-next",
+      "title": "把一次修复，变成可接手的经验。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "reproduceDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "hypothesisDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "fixDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "retestDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "debugChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

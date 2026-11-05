@@ -1,0 +1,161 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-techmap-trial",
+  "revision": "20261029-r1",
+  "title": "Vibe Coding 技术地图｜从页面到真实功能",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "拆清角色",
+      "前端 / API / 后端"
+    ],
+    [
+      "跑通链路",
+      "真实数据与开发替身"
+    ],
+    [
+      "验证交付",
+      "证据、版本与练习"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "opening",
+      "chapter": 0,
+      "title": "让页面，真正办事。",
+      "steps": 1,
+      "seconds": 45
+    },
+    {
+      "id": "outcomes",
+      "chapter": 0,
+      "title": "这一节，交出三样东西。",
+      "steps": 3,
+      "seconds": 60
+    },
+    {
+      "id": "roles",
+      "chapter": 0,
+      "title": "三个参与者，一份约定。",
+      "steps": 3,
+      "seconds": 90
+    },
+    {
+      "id": "responsibilities",
+      "chapter": 0,
+      "title": "前端有逻辑，服务端做关键检查。",
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "contract",
+      "chapter": 0,
+      "title": "把接口说清楚，再各自开工。",
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "browser-api",
+      "chapter": 1,
+      "title": "网页可以调 API，先看连接条件。",
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "mock",
+      "chapter": 1,
+      "title": "Mock 是替身，真实数据要有来处。",
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "flow",
+      "chapter": 1,
+      "title": "点一次查看，沿链路走一遍。",
+      "steps": 5,
+      "seconds": 180
+    },
+    {
+      "id": "sequence",
+      "chapter": 1,
+      "title": "先做哪边？先解决最大的未知。",
+      "steps": 3,
+      "seconds": 90
+    },
+    {
+      "id": "verification",
+      "chapter": 2,
+      "title": "上线前，走过三种结局。",
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "git",
+      "chapter": 2,
+      "title": "Git 记历史，GitHub 帮协作。",
+      "steps": 2,
+      "seconds": 90
+    },
+    {
+      "id": "assignment",
+      "chapter": 2,
+      "title": "轮到你：把一个功能讲清楚。",
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "checkpoint",
+      "chapter": 2,
+      "title": "能说清来源，才能判断完成。",
+      "steps": 1,
+      "seconds": 120
+    }
+  ],
+  "widgets": {
+    "scenario": {
+      "type": "string",
+      "initial": "success",
+      "enum": [
+        "success",
+        "empty",
+        "denied"
+      ]
+    },
+    "answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    },
+    "mapDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "contractDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "evidenceDone": {
+      "type": "boolean",
+      "initial": false
+    }
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "h5deck-debug-pilot",
+  "revision": "20261105-pilot-1",
+  "title": "调试与验证｜计算器实操",
+  "entry": "presentation/index.html",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "notes": "private/notes.json",
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "chapters": [
+    [
+      "调试与验证｜计算器实操",
+      ""
+    ]
+  ],
+  "speaker": {
+    "name": "讲师"
+  },
+  "slides": [
+    {
+      "id": "strategy-map",
+      "title": "调试先找线索，再动代码",
+      "steps": 3,
+      "seconds": 150,
+      "chapter": 0
+    },
+    {
+      "id": "sample-bugs",
+      "title": "计算器能打开，结果对吗？",
+      "steps": 3,
+      "seconds": 120,
+      "chapter": 0
+    },
+    {
+      "id": "debug-practice",
+      "title": "用 15 分钟，查清一个问题",
+      "steps": 1,
+      "seconds": 900,
+      "chapter": 0
+    },
+    {
+      "id": "regression",
+      "title": "修好这道题，再检查旁边两道",
+      "steps": 3,
+      "seconds": 150,
+      "chapter": 0
+    },
+    {
+      "id": "debug-peer",
+      "title": "换个人，看记录能不能复现",
+      "steps": 1,
+      "seconds": 300,
+      "chapter": 0
+    },
+    {
+      "id": "debug-check",
+      "title": "交给同伴之前，勾完这四项",
+      "steps": 1,
+      "seconds": 120,
+      "chapter": 0
+    },
+    {
+      "id": "debug-quiz",
+      "title": "页面恢复了，原因找到了吗？",
+      "steps": 1,
+      "seconds": 90,
+      "chapter": 0
+    },
+    {
+      "id": "debug-next",
+      "title": "把这次排查交给下一位",
+      "steps": 1,
+      "seconds": 60,
+      "chapter": 0
+    }
+  ],
+  "widgets": {
+    "reproduceDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "hypothesisDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "fixDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "retestDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "debugChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

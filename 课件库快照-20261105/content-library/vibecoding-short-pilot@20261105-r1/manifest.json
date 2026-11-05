@@ -1,0 +1,75 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-short-pilot",
+  "revision": "20261105-r1",
+  "title": "Vibe Coding｜试讲片段",
+  "entry": "presentation/index.html",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "notes": "private/notes.json",
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": false
+  },
+  "chapters": [
+    [
+      "计算器调试",
+      ""
+    ],
+    [
+      "八分钟项目路演",
+      ""
+    ]
+  ],
+  "speaker": {
+    "name": "讲师"
+  },
+  "slides": [
+    {
+      "id": "spot",
+      "title": "计算器能打开，结果对吗？",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 85
+    },
+    {
+      "id": "record",
+      "title": "让同伴照着做一遍",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 65
+    },
+    {
+      "id": "recheck",
+      "title": "修好以后，用同一组数再试",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 75
+    },
+    {
+      "id": "opening",
+      "title": "台上八分钟，先讲一条主线",
+      "chapter": 1,
+      "steps": 1,
+      "seconds": 55
+    },
+    {
+      "id": "timeline",
+      "title": "把八分钟分成五段",
+      "chapter": 1,
+      "steps": 2,
+      "seconds": 100
+    },
+    {
+      "id": "rehearse",
+      "title": "给一句能核对的话",
+      "chapter": 1,
+      "steps": 2,
+      "seconds": 60
+    }
+  ]
+}

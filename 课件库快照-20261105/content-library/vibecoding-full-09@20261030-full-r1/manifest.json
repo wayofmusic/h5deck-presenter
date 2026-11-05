@@ -1,0 +1,176 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-09",
+  "revision": "20261030-full-r1",
+  "title": "09｜任务拆分与并行协作",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "任务拆分与并行协作",
+      "拆得开，合得上，查得到"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "parallel-open",
+      "title": "并行，让任务有序汇合。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "parallel-conditions",
+      "title": "先判断：这两件事能同时做吗？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "split-options",
+      "title": "原课的几种拆法，都要回到依赖。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "dependency-example",
+      "title": "一个小项目，怎样画依赖？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "task-card",
+      "title": "任务卡：接手者知道自己改什么。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "interfaces",
+      "title": "先约定接口，再独立制作。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "ownership",
+      "title": "修改范围，要能看出来。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "attention",
+      "title": "把注意力管理，放到看得见的地方。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "parallel-cost",
+      "title": "速度，还受这些条件影响。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "parallel-plan-practice",
+      "title": "练习：画出你项目的依赖。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "parallel-run",
+      "title": "练习：只开两条，完成一次汇合。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "recruitment-example",
+      "title": "换个题材：简历整理怎样拆？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "integration-record",
+      "title": "集成记录，比“都做好了”具体。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "compare-practice",
+      "title": "两个平行时空，要留下可验证的差异。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "parallel-check",
+      "title": "交付检查：每条任务都能找到去处。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "parallel-quiz",
+      "title": "什么时候应该先等一等？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "parallel-close",
+      "title": "下一步：把重复好用的过程封装。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    }
+  ],
+  "widgets": {
+    "m09-deps": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m09-owner": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m09-status": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m09-merge": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m09-answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

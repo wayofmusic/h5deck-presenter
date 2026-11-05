@@ -1,0 +1,78 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "h5deck-deyang-speech-pilot",
+  "revision": "20261105-keynote-3",
+  "title": "让连接更有价值｜发布会版·点按展开",
+  "entry": "presentation/index.html",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "notes": "private/notes.json",
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": false
+  },
+  "chapters": [
+    [
+      "让连接更有价值",
+      "——在数融智链（四川）信息科技有限公司开业典礼上的致辞"
+    ]
+  ],
+  "speaker": {
+    "name": "徐剑"
+  },
+  "slides": [
+    {
+      "id": "return-to-deyang",
+      "title": "让连接更有价值",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 87
+    },
+    {
+      "id": "connection-lifeline",
+      "title": "连接是一条生命线",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 106
+    },
+    {
+      "id": "roads-to-data",
+      "title": "从通信的路，到数据的路",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 63
+    },
+    {
+      "id": "industrial-field",
+      "title": "数字技术的考场在产业现场",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 159
+    },
+    {
+      "id": "work-in-deyang",
+      "title": "把根扎在德阳",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 83
+    },
+    {
+      "id": "thanks-to-partners",
+      "title": "谢谢一路同行",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 134
+    },
+    {
+      "id": "closing-commitment",
+      "title": "把这条路修好",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 94
+    }
+  ]
+}

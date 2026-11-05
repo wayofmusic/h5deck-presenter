@@ -1,0 +1,183 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-10",
+  "revision": "20261030-full-r1",
+  "title": "10｜工作流封装与复用",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "工作流封装与复用",
+      "方法、条件、样例和维护"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "reuse-open",
+      "title": "把一次有效的方法，留给下一次。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "what-to-package",
+      "title": "先找值得再次使用的部分。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "layers",
+      "title": "按任务需要，选择组织方式。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 180
+    },
+    {
+      "id": "prompt-first",
+      "title": "提示清楚以后，再判断要不要升级。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "skill-meaning",
+      "title": "Skill资源包，承载怎样做。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reuse-card",
+      "title": "封装卡：把使用条件写完整。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "debug-origin",
+      "title": "原案例：把乱改，变成假设与验证。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "debug-workflow",
+      "title": "示例：一份调试流程说明。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "false-report-case",
+      "title": "原案例：报告写了分工，调用却没成功。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "process-patch",
+      "title": "流程补丁，放到容易遗漏的位置。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "agent-boundary",
+      "title": "持续角色，需要可检查的系统能力。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "role-names",
+      "title": "名字帮助识别，能力靠实际配置。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "reuse-backlog",
+      "title": "练习一：列出自己的封装候选。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "reuse-practice",
+      "title": "练习二：封装一项，换样例验证。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "maintain-reuse",
+      "title": "复用以后，也要有人维护。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reuse-check",
+      "title": "交付检查：下一次知道怎么用吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "reuse-quiz",
+      "title": "一次成功，下一步怎样做？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "reuse-close",
+      "title": "下一步：读懂一个已有项目。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    }
+  ],
+  "widgets": {
+    "m10-trigger": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m10-process": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m10-tested": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m10-version": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m10-answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

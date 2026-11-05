@@ -1,0 +1,232 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-11",
+  "revision": "20261030-full-r1",
+  "title": "11｜项目拆解与证据",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "项目拆解与证据",
+      "从场景到实现，再到可核对的讲解"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "reading-open",
+      "title": "拿到一个项目，学会有依据地讲清。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "six-projects-one",
+      "title": "六个题材，各有学习重点。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "six-projects-two",
+      "title": "另外三类：分组、信号与选品。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "choose-project",
+      "title": "五分钟：选项目，也选拆解范围。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "entry-first",
+      "title": "先看入口，再决定怎么运行。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "read-vs-run",
+      "title": "“看到了”和“跑通了”，证据不同。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "three-lenses",
+      "title": "从三个角度，互相校对。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "trace-flow",
+      "title": "沿一条数据，走完整个过程。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "evidence-card",
+      "title": "证据表：一句结论，能回到哪里？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "timecandy-case",
+      "title": "时钟包：完整资源，也是产品的一部分。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "feishu-slides-case",
+      "title": "文档转演示：先验证转换链。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "starseeker-case",
+      "title": "批量审核：这个包的AI仍是模拟。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "social-case",
+      "title": "社交分组：演示身份不是真实登录。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "starmap-case",
+      "title": "星图：观察与模拟，要看状态来源。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "metric-audit",
+      "title": "一个指标名，需要对应计算口径。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "baopin-case",
+      "title": "选品训练：规则分数，不是成功概率。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "key-path",
+      "title": "先验证最不确定的一段通路。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reuse-evidence",
+      "title": "代码能否复用，要看依赖与条件。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "platform-transfer",
+      "title": "本次H5平台，也是框架复用的例子。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reading-practice",
+      "title": "三十分钟：独立拆一条完整流程。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 1800
+    },
+    {
+      "id": "reading-merge",
+      "title": "二十分钟：合并理解，形成一页路演材料。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 1200
+    },
+    {
+      "id": "reading-visuals",
+      "title": "图帮助解释，也要帮助核对。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reading-check",
+      "title": "交付检查：结论能回到证据吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "reading-quiz",
+      "title": "AI按钮，证明了真实AI接入吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "reading-close",
+      "title": "下一步：用自己的话，把学习讲给别人。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    }
+  ],
+  "widgets": {
+    "m11-story": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m11-evidence": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m11-boundary": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m11-reuse": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m11-answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

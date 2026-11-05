@@ -23,4 +23,3 @@ const tracked=execFileSync('git',['ls-files','-z'],{cwd:root,encoding:'utf8'}).s
 const blocked=tracked.filter(file=>file.split('/').some(part=>['node_modules','runtime','dist','.runtime','data','.delivery','.playwright-cli','__pycache__'].includes(part))||/\.(zip|pem|key|pfx|p12)$/i.test(file)||/(^|\/)\.env($|\.(?!example$))/.test(file));
 assert.deepEqual(blocked,[],'Excluded machine data or delivery archives entered Git');
 console.log(`Backup verified: v${version}; ${Object.keys(manifest).length} baseline hashes match; ${tracked.length} tracked files checked.`);
-

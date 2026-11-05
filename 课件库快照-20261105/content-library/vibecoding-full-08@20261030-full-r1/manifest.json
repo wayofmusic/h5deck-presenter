@@ -1,0 +1,204 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-08",
+  "revision": "20261030-full-r1",
+  "title": "08｜上下文与表达协作",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "上下文与表达",
+      "输入质量、资料资产和接手验证"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "context-open",
+      "title": "把背景说清，把有效决定留下。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "measure-speed",
+      "title": "先定义你说的“快”。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "context-pack",
+      "title": "一份任务上下文，至少交代这些。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "access-materials",
+      "title": "资料放在那里，不代表当前任务读到了。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "sales-case-flow",
+      "title": "原案例一：先组织资料，再生成分身。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 300
+    },
+    {
+      "id": "sales-case-evidence",
+      "title": "模拟用户，可以发现什么？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 180
+    },
+    {
+      "id": "course-case",
+      "title": "原案例二：多角色内容与课件一起组织。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 300
+    },
+    {
+      "id": "context-quality",
+      "title": "更多资料，需要更清楚的筛选。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "read-then-work",
+      "title": "先读，再做，还要检查理解。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "voice-purpose",
+      "title": "语音输入，帮助把意图说出来。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "voice-example",
+      "title": "不用完美开场，先说清这个任务。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "voice-check",
+      "title": "这些内容，要停下来核一眼。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "voice-practice",
+      "title": "练习：把一个任务说完整。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "effective-record",
+      "title": "把对话中的有效决定，抽出来。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "asset-case",
+      "title": "设计资产，留下能复用的判断。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 240
+    },
+    {
+      "id": "handoff-pack",
+      "title": "最小接手包：让另一个窗口接得住。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "workspace",
+      "title": "工作台，先服务当前瓶颈。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "handoff-practice",
+      "title": "练习：换个窗口，继续同一个任务。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "context-check",
+      "title": "交付检查：上下文能被正确复用吗？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "context-quiz",
+      "title": "哪个上下文更适合继续工作？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "context-close",
+      "title": "下一步：让多条任务有序汇合。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    }
+  ],
+  "widgets": {
+    "m08-goal": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m08-facts": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m08-inputs": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m08-handoff": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m08-answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-01",
+  "revision": "20261030-full-r1",
+  "title": "01｜开营与学习任务",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "开营与学习任务"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "welcome",
+      "title": "用两天，练一套新的解题过程。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "starting-point",
+      "title": "先确认你从哪里出发。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "route-map",
+      "title": "四次爬坡，解决四类问题。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 150
+    },
+    {
+      "id": "deliverables",
+      "title": "两天之后，留下什么？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "class-agreement",
+      "title": "先建立三条课堂约定。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "team-roles",
+      "title": "分工的目的，是让练习顺畅。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 90
+    },
+    {
+      "id": "icebreaker",
+      "title": "认识同伴，也找到共同任务。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "learn-terms",
+      "title": "遇到生词，给它找一个位置。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "demo-boundary",
+      "title": "课堂演示与持续使用，证据不同。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "opening-check",
+      "title": "AI说“完成了”，你先做什么？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "begin",
+      "title": "带着一个小任务，开始第一次制作。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "openingChoice": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

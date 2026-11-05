@@ -1,0 +1,176 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-12",
+  "revision": "20261030-full-r1",
+  "title": "12｜路演点评与后续行动",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "路演点评与后续行动",
+      "表达、复盘和持续实践"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "graduation-open",
+      "title": "讲清一个项目，带走一种做法。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "roles-live",
+      "title": "上台前，明确这几个人。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    },
+    {
+      "id": "eight-minute-card",
+      "title": "八分钟，讲清五件事。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "talk-example",
+      "title": "一段开场，可以这样说。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "ask-good-questions",
+      "title": "两分钟问答，追关键依据。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "rubric",
+      "title": "评分标准，提前说清。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "preflight-practice",
+      "title": "五分钟：走一次真实演示入口。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 300
+    },
+    {
+      "id": "roadshow-block",
+      "title": "毕业路演：每组8+2分钟。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 3600
+    },
+    {
+      "id": "feedback-after",
+      "title": "复盘表达：哪一段真正帮助理解？",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "course-map",
+      "title": "把两天的方法，连回一个项目。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "reflection-write",
+      "title": "三分钟：写下自己的三个收获。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 180
+    },
+    {
+      "id": "reflection-share",
+      "title": "十分钟：每个人讲一个变化。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "action-card",
+      "title": "回到工作中，只选一件继续做。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "three-hopes",
+      "title": "把信心放在持续练习和判断上。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "graduation-check",
+      "title": "结课检查：带走自己的工作包。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "graduation-quiz",
+      "title": "结课以后，怎样开始更稳妥？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "course-close",
+      "title": "从下一件小事，继续。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 90
+    }
+  ],
+  "widgets": {
+    "m12-project": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m12-context": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m12-assets": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m12-action": {
+      "type": "boolean",
+      "initial": false
+    },
+    "m12-answer": {
+      "type": "string",
+      "initial": "none",
+      "enum": [
+        "none",
+        "a",
+        "b",
+        "c"
+      ]
+    }
+  }
+}

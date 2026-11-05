@@ -1,0 +1,215 @@
+{
+  "packageFormat": "h5-presenter-content/1",
+  "schemaVersion": 1,
+  "deckId": "vibecoding-full-04",
+  "revision": "20261030-full-r1",
+  "title": "04｜工具选择与体验打磨",
+  "entry": "presentation/index.html",
+  "notes": "private/notes.json",
+  "adapter": {
+    "protocol": "h5-presenter-bridge/1",
+    "path": "presentation/adapter.js"
+  },
+  "capabilities": {
+    "navigation": true,
+    "reveal": true,
+    "widgetSnapshot": true
+  },
+  "speaker": {
+    "name": "课程重建试讲（未指定讲师）"
+  },
+  "chapters": [
+    [
+      "学习与演练",
+      "工具选择与体验打磨"
+    ]
+  ],
+  "slides": [
+    {
+      "id": "welcome",
+      "title": "选合适的工具，打磨真正的体验。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    },
+    {
+      "id": "choose-task",
+      "title": "先问任务需要什么。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "experiment-rules",
+      "title": "同题比较，留下条件和结果。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 120
+    },
+    {
+      "id": "tool-gtd",
+      "title": "实验一：同一句话，比较初版。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "ocr-brief",
+      "title": "实验二：先拆开“拍照做题”。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "tool-ocr",
+      "title": "实验二：找出真正完成的那一段。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "weather-brief",
+      "title": "实验三：天气页面的数据从哪里来？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 90
+    },
+    {
+      "id": "tool-weather",
+      "title": "实验三：检查来源和失败。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "real-data",
+      "title": "看起来像数据，不等于验证了数据。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "tool-review",
+      "title": "复盘：这次任务，你会怎么选？",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 600
+    },
+    {
+      "id": "spectrum",
+      "title": "封装程度与控制范围，需要取舍。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 120
+    },
+    {
+      "id": "build-loop",
+      "title": "从小版本开始，逐轮打磨。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 120
+    },
+    {
+      "id": "website-case",
+      "title": "官网案例：先定它为谁提供什么。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 150
+    },
+    {
+      "id": "reference",
+      "title": "参考，要拆成理由。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "wireframe",
+      "title": "先画结构，再争论细节。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "ux-ui",
+      "title": "界面、交互、整体体验，分开讨论。",
+      "chapter": 0,
+      "steps": 3,
+      "seconds": 150
+    },
+    {
+      "id": "design-rules",
+      "title": "把“风格一致”写成具体约束。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "design-experiments",
+      "title": "拿不准时，先做独立小实验。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 150
+    },
+    {
+      "id": "training-case",
+      "title": "“修炼”案例：表达与实现要分清。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 120
+    },
+    {
+      "id": "ten-strategies",
+      "title": "把十种策略，变成可检查的动作。",
+      "chapter": 0,
+      "steps": 4,
+      "seconds": 150
+    },
+    {
+      "id": "versions",
+      "title": "改动之前，先留一个可回到的点。",
+      "chapter": 0,
+      "steps": 2,
+      "seconds": 150
+    },
+    {
+      "id": "polish-practice",
+      "title": "选三种策略，完成一次打磨。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 900
+    },
+    {
+      "id": "polish-check",
+      "title": "互评：说明改进，而不只展示截图。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 120
+    },
+    {
+      "id": "next",
+      "title": "表面打磨有边界，下一步看系统。",
+      "chapter": 0,
+      "steps": 1,
+      "seconds": 60
+    }
+  ],
+  "widgets": {
+    "reasonDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "operationDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "statesDone": {
+      "type": "boolean",
+      "initial": false
+    },
+    "versionDone": {
+      "type": "boolean",
+      "initial": false
+    }
+  }
+}
