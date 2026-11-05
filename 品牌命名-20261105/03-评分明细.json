@@ -1,5 +1,5 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "method_source": "https://tongdao-yitang.feishu.cn/wiki/FUY4wGuiziLolYkuqhncZs3gnid",
   "scoring_note": "Design judgment, not measured user data. Weights are chosen for this project, not supplied by the course.",
   "weights": {
@@ -125,7 +125,7 @@
       "propagation": 9,
       "meaning": 8,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "自然亲近，容易代入口头推荐",
       "weakness": "可能被理解为口才或语言学习产品",
       "availability": "做过有限公开检索；注册等仍待核验"
@@ -191,7 +191,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 7,
-      "design_score": 80,
+      "design_score": 81,
       "strength": "资料转课程的变化清晰",
       "weakness": "把未来范围压在制课，正式演讲延展较弱",
       "availability": "未完成可用性核验"
@@ -202,7 +202,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "连接资料、课件与讲述",
       "weakness": "四字略书面，需用副标题明确软件品类",
       "availability": "做过有限公开检索；注册等仍待核验"
@@ -224,7 +224,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 7,
-      "design_score": 80,
+      "design_score": 81,
       "strength": "文字成为表达的意象好",
       "weakness": "容易被理解为配音或有声书",
       "availability": "未完成可用性核验"
@@ -235,7 +235,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "有结构化内容与完成感",
       "weakness": "需额外关注与已存在“成章”名称的区分",
       "availability": "未完成可用性核验"
@@ -246,7 +246,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "把想讲的话整理成可表达的内容",
       "weakness": "偏写作联想，需额外关注“成章”相关名称",
       "availability": "做过有限公开检索；注册等仍待核验"
@@ -345,7 +345,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "有画面、有情绪，能延展成视觉系统",
       "weakness": "单看名字不知品类，需要明确副标题",
       "availability": "做过有限公开检索；注册等仍待核验"
@@ -565,7 +565,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 7,
-      "design_score": 80,
+      "design_score": 81,
       "strength": "结果具体，适合制课服务",
       "weakness": "主张语属性强，范围集中在课程",
       "availability": "未完成可用性核验"
@@ -576,7 +576,7 @@
       "propagation": 8,
       "meaning": 9,
       "fit": 7,
-      "design_score": 80,
+      "design_score": 81,
       "strength": "学员与讲师的结果感清楚",
       "weakness": "容易被理解为教师培训课程",
       "availability": "未完成可用性核验"
@@ -708,7 +708,7 @@
       "propagation": 9,
       "meaning": 8,
       "fit": 7,
-      "design_score": 80,
+      "design_score": 81,
       "strength": "熟悉，具体，适合图标",
       "weakness": "校园与课堂联想较强，跨场景延展受限",
       "availability": "未完成可用性核验"
@@ -730,7 +730,7 @@
       "propagation": 9,
       "meaning": 8,
       "fit": 9,
-      "design_score": 86,
+      "design_score": 87,
       "strength": "把“一页成章”转向演讲场景，读起来更轻巧",
       "weakness": "“开场”容易被理解为只做第一页",
       "availability": "做过有限公开检索；注册等仍待核验"
