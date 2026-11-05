@@ -1,0 +1,35 @@
+name: Verify project
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up Node
+        uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '24.22.1'
+          cache: npm
+          cache-dependency-path: 双屏演讲系统-Codex开发交接包/package-lock.json
+      - name: Verify version and source integrity
+        run: node scripts/verify-backup.mjs
+      - name: Install locked dependencies
+        working-directory: 双屏演讲系统-Codex开发交接包
+        run: npm ci
+      - name: Build and run existing checks
+        working-directory: 双屏演讲系统-Codex开发交接包
+        run: npm run check
+

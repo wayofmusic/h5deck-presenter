@@ -1,0 +1,12 @@
+{
+  "packageFormat":"h5-presenter-content/1","schemaVersion":1,"deckId":"basic-story","revision":"1",
+  "title":"一页一个重点","entry":"presentation/index.html","notes":"private/notes.json",
+  "adapter":{"protocol":"h5-presenter-bridge/1","path":"presentation/adapter.js"},
+  "capabilities":{"navigation":true,"reveal":true,"widgetSnapshot":false},
+  "speaker":{"name":"示例讲师"},"chapters":[["内容与表达","三页基础模板"]],
+  "slides":[
+    {"id":"opening","chapter":0,"title":"让表达，回到内容","steps":1,"seconds":30},
+    {"id":"key-points","chapter":0,"title":"先讲清楚，再往下走","steps":3,"seconds":90},
+    {"id":"closing","chapter":0,"title":"每一页，都有话可讲","steps":1,"seconds":30}
+  ]
+}

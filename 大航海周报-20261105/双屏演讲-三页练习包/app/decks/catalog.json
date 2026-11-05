@@ -1,0 +1,8 @@
+[
+  {
+    "id": "reuse-demo",
+    "manifest": "decks/reuse-demo/deck.json",
+    "script": "decks/reuse-demo/script.json",
+    "display": "clients/display/generic.html"
+  }
+]

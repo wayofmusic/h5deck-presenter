@@ -1,0 +1,15 @@
+:root{color:#203839;background:#e9e5d9;font:17px/1.7 "Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}body{margin:0}
+main{width:min(800px,calc(100% - 32px));margin:36px auto 64px}
+header,article{padding:clamp(20px,5vw,44px);border:1px solid #b9b9aa;border-radius:8px;margin-bottom:18px}
+header{background:radial-gradient(ellipse at top right,#395c54,transparent 70%),#243e41;color:#f5eee0}
+article{background:#f7f3e9}h1,h2,p{margin:.2em 0 .6em}
+h1{font-size:clamp(30px,5vw,48px);line-height:1.18}
+h2{font-size:clamp(22px,4vw,31px);line-height:1.28}
+.kicker{font-size:.8rem;letter-spacing:.09em;font-weight:700;color:#805733}
+header .kicker{color:#e8be90}a{color:#21564d;font-weight:650;text-underline-offset:.2em}
+header a{color:#f3d5ae}a:focus-visible{outline:2px solid #aa753c;outline-offset:3px}
+nav{display:flex;flex-wrap:wrap;gap:.45rem 1rem;margin-top:1rem}
+aside{padding:.55em .8em;border-left:3px solid #9d7148;margin-bottom:1rem;background:#e9e3d5;color:#4b5043}
+article[id]{scroll-margin:12px}
+

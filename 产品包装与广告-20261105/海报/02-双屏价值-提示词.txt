@@ -1,0 +1,14 @@
+Use case: ads-marketing
+Asset type: One complete independent premium Chinese product advertisement poster, vertical 2:3 composition, 1024×1536.
+Primary request: Create a visually arresting poster for “H5Deck｜随身讲台”, a local Windows H5 dual-screen presentation platform. The audience sees the presentation screen; the speaker reads private slide-matched notes on their ordinary Android phone and taps to advance or reveal content. The image is an advertising concept visualization, not a real customer testimonial or an exact screenshot.
+Style and composition: International editorial product advertising. Warm off-white paperlike background, saturated orange-red accents, crisp near-black Chinese typography. Huge exceptionally readable bold Chinese headline across the upper portion, generous elegant negative space, careful alignment. In the middle, a beautifully realistic generic modern Android phone stands at a gentle diagonal on a matte off-white plinth; behind it is a wide horizontal presentation screen. A restrained graceful orange light line connects the two devices, clearly a graphic metaphor for synchronized screens. Real materials, tactile shadows, studio photography quality, warm controlled lighting. No Apple mark or other third-party logo. No transparent-phone holograms. No human needed.
+Screen content: The large screen shows only the Chinese title “把复杂，讲清楚” and a minimal simple three-step diagram. Phone has an elegant clearly readable dark-on-ivory notes view, current-slide indicator “第 03 页”, exactly three short lines of Chinese speaker notes: “先讲清问题。 / 再给出方法。 / 最后邀请行动。” and a large orange “下一步” button. Do not add any other application features.
+Exact main poster copy, render verbatim with correct Chinese characters, high-quality bold sans serif:
+Top brand: “H5Deck｜随身讲台”
+Main headline split into two large lines: “观众看大屏，” then “你看下一句。”
+Subheadline: “一部手机，讲稿与翻页都在手边。”
+Two small callout labels near corresponding devices: “观众屏：清楚呈现” and “讲者屏：逐页讲稿”
+Feature line: “扫码配对 / 双向同步 / 点按展开”
+Bottom highly visible CTA: “私信『开讲』，预约双屏演示”
+Small but legible footer: “适用于已适配的 H5 课件”
+Constraints: Each text appears once. Correct simplified Chinese; do not drop or duplicate characters. Do not put quotation marks around entire copy. Maintain safe outer margins and fully visible uncropped text. Avoid crowded tiny text, watermark, QR code, fake website, prices, fabricated certifications, customer counts, testimonials or badges. No claim of universal PPT support, AI generation, voice following, zero latency, or unrealized features. One polished finished poster, not collage/contact sheet.

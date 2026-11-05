@@ -1,0 +1,23 @@
+{
+  "name": "dual-screen-presenter",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.22.1 <25"
+  },
+  "scripts": {
+    "build": "node packaging/build.mjs",
+    "content": "node packaging/content-cli.mjs",
+    "release": "node packaging/release.mjs",
+    "start": "node server/index.mjs",
+    "test": "node --test verification/*.test.mjs",
+    "check": "npm run build && npm test"
+  },
+  "dependencies": {
+    "ajv": "8.20.0",
+    "qrcode": "1.5.4",
+    "yauzl": "3.4.0",
+    "yazl": "3.3.1"
+  }
+}

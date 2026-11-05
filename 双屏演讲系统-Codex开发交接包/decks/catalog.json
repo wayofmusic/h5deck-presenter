@@ -1,0 +1,4 @@
+[
+  {"id":"chaixiang-ai-y","manifest":"dist/chaixiang-ai-y/manifest.json","script":"dist/chaixiang-ai-y/script.json","display":"dist/chaixiang-ai-y/display.html","optional":true,"files":{"/deck-renderer.js":"dist/chaixiang-ai-y/renderer.js","/deck-style.css":"dist/chaixiang-ai-y/style.css"},"assets":{"/assets/chaixiang-ai-y/":"dist/chaixiang-ai-y/assets"}},
+  {"id":"reuse-demo","manifest":"decks/reuse-demo/deck.json","script":"decks/reuse-demo/script.json","display":"clients/display/generic.html"}
+]

@@ -1,0 +1,13 @@
+{
+  "packageFormat":"h5-presenter-content/1","schemaVersion":1,"deckId":"interactive-workshop","revision":"1",
+  "title":"把选择，带进课堂","entry":"presentation/index.html","notes":"private/notes.json",
+  "adapter":{"protocol":"h5-presenter-bridge/1","path":"presentation/adapter.js"},
+  "capabilities":{"navigation":true,"reveal":true,"widgetSnapshot":true},
+  "speaker":{"name":"互动课示例讲师"},"chapters":[["课堂互动","三页互动模板"]],
+  "widgets":{"choice":{"type":"string","initial":"none","enum":["none","practice","lecture"]}},
+  "slides":[
+    {"id":"welcome","chapter":0,"title":"今天，换一种学法","steps":1,"seconds":30},
+    {"id":"choose","chapter":0,"title":"你希望怎样开始？","steps":2,"seconds":90},
+    {"id":"reflect","chapter":0,"title":"把选择变成一次行动","steps":1,"seconds":45}
+  ]
+}

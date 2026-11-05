@@ -1,0 +1,15 @@
+# Preserve byte-for-byte source baselines and existing file encodings.
+* -text
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.gif binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.h5deck binary
+*.zip binary
+*.mp4 binary
+*.mp3 binary
+

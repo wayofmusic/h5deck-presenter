@@ -1,0 +1,58 @@
+{
+  "baseline/work/app.js": {
+    "bytes": 33630,
+    "sha256": "b77dc67dfec66d99859b0a90eb1f40cbe89a03beb13396db68584e1e0d0be8e1"
+  },
+  "baseline/work/build.cjs": {
+    "bytes": 5599,
+    "sha256": "86bb2e95523b8d0866b4d0365cb6d83184c3949bd1a9452810b75624fceec465"
+  },
+  "baseline/work/content.js": {
+    "bytes": 44139,
+    "sha256": "dcdb36d3f97e4669e8d90db7884fba313aedf3001a6e902da3119b3e64b3351e"
+  },
+  "baseline/work/keynote.css": {
+    "bytes": 18485,
+    "sha256": "d8e8514a6706959f79512bd845fe80e33ab27c62e60686d3fe0122a2915f73f7"
+  },
+  "baseline/work/shell.html": {
+    "bytes": 7039,
+    "sha256": "0714fa2b035d8cd80f6936c49666eacd398317f460a8a471c01cdc20589d05db"
+  },
+  "baseline/work/style.css": {
+    "bytes": 23965,
+    "sha256": "cd614dab1d8979f42e061a4b41abc1831ace6e6cf9da4ee301885e0ee4020b12"
+  },
+  "baseline/outputs/TED配图/01-Y模型.png": {
+    "bytes": 1741076,
+    "sha256": "481cfc53ea186d76fcfaac5b95477d8bc704d559dacc5526012bc7111851fe0e"
+  },
+  "baseline/outputs/TED配图/02-判断.png": {
+    "bytes": 1838288,
+    "sha256": "14aa5267531a55b9ecf6a7c55aa3c14720feb56508a71ba59475a4bc47b8ea3f"
+  },
+  "baseline/outputs/TED配图/03-系统.png": {
+    "bytes": 1703321,
+    "sha256": "826d82ce4f8ff2898e15cc71b1678c03d00e9498dab84182a3f17c09514add56"
+  },
+  "baseline/outputs/TED配图/04-积累.png": {
+    "bytes": 1739476,
+    "sha256": "324aa9775f6a257fd40ce8f0b745939920475f2e514748490c0b82551274e6e0"
+  },
+  "baseline/outputs/TED配图/05-演讲轻纹理.png": {
+    "bytes": 1408802,
+    "sha256": "13db3291876f77abe60066765e32398ab3a34a0b5d67ca92f459323214bdc2ef"
+  },
+  "baseline/outputs/TED配图/06-AI轻纹理.png": {
+    "bytes": 1669030,
+    "sha256": "96904e842c275b60a2ea47c91b5cfc7650727b91438c8ddb89476bbe0e3f9c6a"
+  },
+  "baseline/outputs/个人资料/柴翔形象照.png": {
+    "bytes": 1951643,
+    "sha256": "380f3a787de22c6ec768a164e0f84ed45249060780755933dbb2a71c94839868"
+  },
+  "baseline/outputs/个人资料/柴翔微信二维码.jpg": {
+    "bytes": 111617,
+    "sha256": "ab811ac29124ab0943883a92cbeb47907c51e44b48c34dcbbc2fb88a78852a62"
+  }
+}

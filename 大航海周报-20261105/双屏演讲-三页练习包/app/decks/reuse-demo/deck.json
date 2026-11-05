@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1, "deckId": "reuse-demo", "revision": "1", "title": "三页复用验证", "renderer": "generic", "chapters": [["连接与复用", "3 页"]],
+  "speaker": { "name": "示例讲师" },
+  "slides": [
+    { "id": "demo-start", "chapter": 0, "title": "另一套课件，同一个遥控器", "steps": 1, "seconds": 30, "items": ["扫码连接 · 逐页看稿 · 双向同步"] },
+    { "id": "demo-steps", "chapter": 0, "title": "一步一步，讲清楚", "steps": 3, "seconds": 60, "items": ["第一步：手机看到当前页讲稿", "第二步：下一步展开新内容", "第三步：电脑与手机保持一致"] },
+    { "id": "demo-end", "chapter": 0, "title": "内容可以换，连接继续用", "steps": 1, "seconds": 30, "items": ["课件与讲稿通过页面 ID 对应"] }
+  ]
+}

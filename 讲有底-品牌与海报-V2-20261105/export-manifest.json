@@ -1,0 +1,116 @@
+{
+  "brand": "讲有底",
+  "edition": "V2",
+  "verified_at": "2026-11-05T22:18:05+08:00",
+  "export_method": "Chromium HTML/CSS screenshot; CSS artboard 1080x1920; device scale 2 for high resolution; CSS scale for social",
+  "font": "Microsoft YaHei, installed Windows font; font files not redistributed",
+  "provenance": "ImageGen key visuals plus independently rendered exact Chinese copy and illustrative device UI",
+  "native_4k_photo_claim": false,
+  "exports": [
+    {
+      "file": "海报/01-讲师开课-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "bytes": 744995,
+      "sha256": "a4743ad0f673493d6c964b772c65351c8c5532fc7bd89d0a8ad1df31f8f01b42"
+    },
+    {
+      "file": "海报/01-讲师开课-2160x3840.png",
+      "width": 2160,
+      "height": 3840,
+      "aspect_ratio": "9:16",
+      "bytes": 2184770,
+      "sha256": "14a5bde2bae1a88701c084b05f37787a7f79045a07739aa58c0018cc22ee14e5"
+    },
+    {
+      "file": "海报/02-双屏价值-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "bytes": 655184,
+      "sha256": "7d38899c81acbf7482c50a972c6c1e6ce973287aeaa47929a4082eb345bb8872"
+    },
+    {
+      "file": "海报/02-双屏价值-2160x3840.png",
+      "width": 2160,
+      "height": 3840,
+      "aspect_ratio": "9:16",
+      "bytes": 1909351,
+      "sha256": "a0b8573547b4dea911531ba4cfe27d39bb11647b290b72e4176fb80600b70d7c"
+    },
+    {
+      "file": "海报/03-重要演讲-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "bytes": 702641,
+      "sha256": "294bd5530e1039265c0dda6a4c8a3cd304cec7124ad77b9daaae7d52d80f7705"
+    },
+    {
+      "file": "海报/03-重要演讲-2160x3840.png",
+      "width": 2160,
+      "height": 3840,
+      "aspect_ratio": "9:16",
+      "bytes": 2039421,
+      "sha256": "e11fc94dc4f2a2d3160ad2dfcd1e58eb9c15bfcfc90a9e56e52b57e212fdcdfc"
+    },
+    {
+      "file": "海报/04-好课复用-1080x1920.png",
+      "width": 1080,
+      "height": 1920,
+      "aspect_ratio": "9:16",
+      "bytes": 799789,
+      "sha256": "0e095fb51c06868eecc53a5962c70aaadbb93c6a406fb198246f4e698ce0e25c"
+    },
+    {
+      "file": "海报/04-好课复用-2160x3840.png",
+      "width": 2160,
+      "height": 3840,
+      "aspect_ratio": "9:16",
+      "bytes": 2441654,
+      "sha256": "aac5818f2140ade24189a8fea74254d2bec785fe189ad35a68f2ae4a9b7f55e4"
+    }
+  ],
+  "assets": [
+    {
+      "file": "素材/01-讲师课堂-主视觉.png",
+      "native_width": 1586,
+      "native_height": 992,
+      "bytes": 1822238,
+      "source": "built-in ImageGen",
+      "role": "concept key visual",
+      "sha256": "ca7c751de9234144026e1e43f19541435abced68a5abe2cb3bb6e8eac248faeb"
+    },
+    {
+      "file": "素材/02-双屏展台-主视觉.png",
+      "native_width": 1586,
+      "native_height": 992,
+      "bytes": 2031444,
+      "source": "built-in ImageGen",
+      "role": "concept key visual",
+      "sha256": "db46c25055275057d88d5c1ca8bd3338c8c60b57c5b61fce2769bb3074ca3b74"
+    },
+    {
+      "file": "素材/03-重要演讲-主视觉.png",
+      "native_width": 1586,
+      "native_height": 992,
+      "bytes": 1739864,
+      "source": "built-in ImageGen",
+      "role": "concept key visual",
+      "sha256": "311b05785b4ba45dcab02ea82506fc430746f66b0e1d8751d1f9ee76ff9936ec"
+    },
+    {
+      "file": "素材/04-课程复用-主视觉.png",
+      "native_width": 1586,
+      "native_height": 992,
+      "bytes": 2124981,
+      "source": "built-in ImageGen",
+      "role": "concept key visual",
+      "sha256": "7efe3fc115b9e32d7419efa2a22d1890d35808bf7bcead6e7bd01d1d67e18618"
+    }
+  ],
+  "local_reference_count": 17,
+  "missing_local_references": [],
+  "notes": "Scenarios and UI are advertising concepts. Naming is a recommendation with web screening; no trademark, domain or account clearance claimed."
+}
